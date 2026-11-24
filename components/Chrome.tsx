@@ -20,7 +20,7 @@ function useLocale(): Locale {
   useEffect(() => {
     const next = localeFromPath(window.location.pathname);
     setLocale(next);
-    document.documentElement.lang = next === "de" ? "de" : "en";
+    document.documentElement.lang = next === "es" ? "es" : "en";
     document.documentElement.dataset.locale = next;
   }, [pathname]);
   return locale;
@@ -97,7 +97,7 @@ function Header({ locale }: { locale: Locale }) {
             </summary>
             <div className="lang-menu" role="list">
               <LocaleLink locale="en" current={locale} href={withSearch(equivalentPath(pathname, "en"), search)} label={site.ui.english} />
-              <LocaleLink locale="de" current={locale} href={withSearch(equivalentPath(pathname, "de"), search)} label={site.ui.german} />
+              <LocaleLink locale="es" current={locale} href={withSearch(equivalentPath(pathname, "es"), search)} label={site.ui.spanish} />
             </div>
           </details>
           <Link className="btn quote-desktop" href={localePath(locale, "/contact/")}>
@@ -126,11 +126,11 @@ function Header({ locale }: { locale: Locale }) {
           <div className="mobile-lang">
             <span>{site.ui.language}:</span>
             <Link href={withSearch(equivalentPath(pathname, "en"), search)} hrefLang="en" aria-current={locale === "en" ? "true" : undefined} onClick={() => setOpen(false)}>EN</Link>
-            <Link href={withSearch(equivalentPath(pathname, "de"), search)} hrefLang="de" aria-current={locale === "de" ? "true" : undefined} onClick={() => setOpen(false)}>DE</Link>
+            <Link href={withSearch(equivalentPath(pathname, "es"), search)} hrefLang="es" aria-current={locale === "es" ? "true" : undefined} onClick={() => setOpen(false)}>ES</Link>
           </div>
         </div>
         <span className="sr-only">
-          {site.ui.language}: {locale === "de" ? site.ui.german : site.ui.english}. {switchHref}
+          {site.ui.language}: {locale === "es" ? site.ui.spanish : site.ui.english}. {switchHref}
         </span>
       </div>
     </header>

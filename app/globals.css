@@ -678,8 +678,8 @@ h3 { margin: 8px 0; font-size: 18px; line-height: 1.3; }
 .pending-note { margin-top: 6px; }
 
 .only-de { display: none; }
-html[data-locale="de"] .only-en { display: none; }
-html[data-locale="de"] .only-de { display: block; }
+html[data-locale="es"] .only-en { display: none; }
+html[data-locale="es"] .only-de { display: block; }
 
 @media (max-width: 1180px) {
   :root { --header-h: 64px; }
@@ -776,5 +776,3 @@ html[data-locale="de"] .only-de { display: block; }
 .hero { background: var(--hero); }
 .logo img { height: 44px; width: auto; }
 @media (max-width: 1100px) { .hero-ghost { width: 100%; left: 0; top: 0; } }
-/* English only for now: hide the language switch until Spanish copy is written */
-.lang, .mobile-lang { display: none !important; }

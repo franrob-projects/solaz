@@ -20,8 +20,8 @@ function write(file, source) {
 }
 
 for (const [key, route, view] of pages) {
-  for (const locale of ["en", "de"]) {
-    const dir = locale === "en" ? (route === "/" ? "app" : `app/${route}`) : route === "/" ? "app/de" : `app/de/${route}`;
+  for (const locale of ["en", "es"]) {
+    const dir = locale === "en" ? (route === "/" ? "app" : `app/${route}`) : route === "/" ? "app/es" : `app/es/${route}`;
     write(
       `${dir}/page.tsx`,
       `import { ${view} } from "@/components/pages";
@@ -37,8 +37,8 @@ export default function Page() {
   }
 }
 
-for (const locale of ["en", "de"]) {
-  const dir = locale === "en" ? "app/contact" : "app/de/contact";
+for (const locale of ["en", "es"]) {
+  const dir = locale === "en" ? "app/contact" : "app/es/contact";
   write(
     `${dir}/page.tsx`,
     `import { ContactView } from "@/components/pages";
@@ -53,9 +53,9 @@ export default function Page() {
   );
 }
 
-for (const locale of ["en", "de"]) {
-  const dir = locale === "en" ? "app/servicing" : "app/de/servicing";
-  const target = locale === "en" ? "/refurbishment/" : "/de/refurbishment/";
+for (const locale of ["en", "es"]) {
+  const dir = locale === "en" ? "app/servicing" : "app/es/servicing";
+  const target = locale === "en" ? "/refurbishment/" : "/es/refurbishment/";
   write(
     `${dir}/page.tsx`,
     `import { asset } from "@/lib/config";
@@ -78,9 +78,9 @@ export default function Page() {
   );
 }
 
-for (const locale of ["en", "de"]) {
-  const dir = locale === "en" ? "app/downloads/[slug]" : "app/de/downloads/[slug]";
-  const pathPrefix = locale === "en" ? "/downloads" : "/de/downloads";
+for (const locale of ["en", "es"]) {
+  const dir = locale === "en" ? "app/downloads/[slug]" : "app/es/downloads/[slug]";
+  const pathPrefix = locale === "en" ? "/downloads" : "/es/downloads";
   write(
     `${dir}/page.tsx`,
     `import { notFound } from "next/navigation";

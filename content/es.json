@@ -1,0 +1,1156 @@
+{
+  "locale": "es",
+  "meta": {
+    "siteName": "Solaz",
+    "ogImageAlt": "Página de inicio de Solaz: calor solar y bombas de calor diseñados y fabricados en Málaga"
+  },
+  "company": {
+    "legalName": "Solaz Energía S.L.",
+    "divisionLine": "Solaz Servicio (división)",
+    "phone": "+34 951 23 45 67",
+    "phoneHref": "tel:+34951234567",
+    "email": "hola@solaz.es",
+    "addressLines": [
+      "Calle Diderot, 14 · Nave 6",
+      "Pol. Ind. Guadalhorce, 29004 Málaga, España"
+    ],
+    "addressInline": "Calle Diderot 14, Pol. Ind. Guadalhorce, 29004 Málaga, España",
+    "gettingHere": "Cerca del centro histórico de Málaga, con fácil acceso por tren y carretera.",
+    "linkedinName": "Solaz Energía S.L.",
+    "linkedinNote": "[[CLIENT TO CONFIRM]] URL del perfil",
+    "companyNumber": "[[CLIENT TO CONFIRM]]",
+    "vat": "[[CLIENT TO CONFIRM]]",
+    "mapsQuery": "Calle Diderot 14, Pol. Ind. Guadalhorce, 29004 Málaga, España",
+    "mapsLabel": "Mapa (Google Maps: Pol. Ind. Guadalhorce, Málaga)"
+  },
+  "nav": [
+    {
+      "label": "Productos",
+      "href": "/products/"
+    },
+    {
+      "label": "Recambios",
+      "href": "/aftermarket/"
+    },
+    {
+      "label": "Colectores",
+      "href": "/fin-tube/"
+    },
+    {
+      "label": "Mantenimiento",
+      "href": "/refurbishment/"
+    },
+    {
+      "label": "Empresa",
+      "href": "/company/"
+    },
+    {
+      "label": "Contacto",
+      "href": "/contact/"
+    }
+  ],
+  "footerNav": [
+    [
+      {
+        "label": "Productos",
+        "href": "/products/"
+      },
+      {
+        "label": "Recambios",
+        "href": "/aftermarket/"
+      },
+      {
+        "label": "Colectores",
+        "href": "/fin-tube/"
+      },
+      {
+        "label": "Centros deportivos",
+        "href": "/automotive/"
+      }
+    ],
+    [
+      {
+        "label": "Mantenimiento",
+        "href": "/refurbishment/"
+      },
+      {
+        "label": "Fabricación",
+        "href": "/manufacturing/"
+      },
+      {
+        "label": "Empresa",
+        "href": "/company/"
+      },
+      {
+        "label": "Documentos técnicos",
+        "href": "/whitepapers/"
+      }
+    ]
+  ],
+  "footerLabels": {
+    "company": "Empresa",
+    "headOffice": "Oficina central",
+    "enquiries": "Consultas",
+    "pages": "Páginas"
+  },
+  "legal": {
+    "companyNo": "CIF",
+    "vat": "IVA",
+    "privacy": "Privacidad",
+    "cookies": "Ajustes de cookies",
+    "rev": "Rev. A"
+  },
+  "cta": {
+    "title": "¿Tienes un proyecto? Habla con nuestro equipo técnico.",
+    "button": "Contáctanos",
+    "href": "/contact/"
+  },
+  "ui": {
+    "requestQuote": "Pedir presupuesto",
+    "menu": "Menú",
+    "close": "Cerrar",
+    "language": "ES · EN ▾",
+    "english": "English",
+    "spanish": "Español",
+    "viewProducts": "Ver productos",
+    "findOutMore": "Más información",
+    "home": "Inicio",
+    "sendEnquiry": "Enviar consulta",
+    "enquirySent": "Consulta enviada",
+    "enquiryThanks": "Gracias. Tu consulta ha llegado a nuestro equipo en Málaga y te responderemos lo antes posible.",
+    "mailtoNotice": "Este formulario aún no está conectado a nuestro buzón. Al enviarlo se abre un correo a hola@solaz.es. Adjunta cualquier plano por separado: un borrador de correo no puede incluir el archivo.",
+    "mailtoOpened": "Borrador de correo abierto",
+    "mailtoBody": "Si no se abrió tu aplicación de correo, escribe a hola@solaz.es con los datos de abajo.",
+    "formError": "No se pudo enviar el formulario. Escribe a hola@solaz.es.",
+    "sending": "Enviando…",
+    "fileLabel": "Plano o ficha técnica (opcional)",
+    "chooseFile": "Elegir archivo",
+    "noFile": "Ningún archivo seleccionado",
+    "cookieTitle": "Ajustes de cookies",
+    "cookieBody": "No usamos cookies esenciales. Las cookies analíticas están desactivadas hasta que las aceptes. Este sitio todavía no carga ningún script de analítica. Tu elección se guarda solo en este navegador.",
+    "cookieAccept": "Aceptar analítica",
+    "cookieReject": "Rechazar analítica",
+    "cookieOn": "Cookies analíticas: aceptadas",
+    "cookieOff": "Cookies analíticas: desactivadas",
+    "backToHome": "Volver al inicio",
+    "redirectServicing": "El mantenimiento se explica en nuestra página de reparación.",
+    "continue": "Continuar",
+    "openInMaps": "Abrir en Mapas",
+    "pending": "[[CLIENT TO CONFIRM]]",
+    "read": "Leer",
+    "downloadCertificates": "Descargar certificados",
+    "readPolicy": "Leer la política",
+    "seeManufacturing": "Ver fabricación",
+    "seeRefurbishment": "Ver el servicio de reparación",
+    "requestSpares": "Pedir recambios para tu equipo Solaz"
+  },
+  "form": {
+    "title": "Pedir presupuesto",
+    "name": "Nombre",
+    "company": "Empresa",
+    "email": "Email",
+    "phone": "Teléfono",
+    "application": "Aplicación (p. ej. colectores solares, bomba de calor, mantenimiento)",
+    "requirement": "Tu necesidad",
+    "subject": "Consulta desde la web de Solaz"
+  },
+  "cookies": {
+    "headOffice": "Oficina central",
+    "telephone": "Teléfono",
+    "email": "Email",
+    "gettingHere": "Cómo llegar",
+    "linkedin": "LinkedIn"
+  },
+  "downloads": [
+    {
+      "slug": "certificates",
+      "title": "Certificados",
+      "summary": "ISO 9001, ISO 14001 y el sello A+++.",
+      "body": "Los PDF de los certificados aún no se han facilitado. [[CLIENT TO CONFIRM]]"
+    },
+    {
+      "slug": "ethical-procurement",
+      "title": "Política de compras éticas",
+      "summary": "Responsabilidad global: principios en la práctica.",
+      "body": "El PDF de la política de compras éticas aún no se ha facilitado. [[CLIENT TO CONFIRM]]"
+    },
+    {
+      "slug": "sustainability",
+      "title": "Política de sostenibilidad",
+      "summary": "Cuidado del medio ambiente: un planeta sostenible.",
+      "body": "El PDF de la política de sostenibilidad aún no se ha facilitado. [[CLIENT TO CONFIRM]]"
+    },
+    {
+      "slug": "wp-01",
+      "title": "Introducción a las bombas de calor aire-agua",
+      "summary": "Diseño, funcionamiento y mantenimiento.",
+      "body": "El documento técnico WP.01 aún no se ha facilitado. [[CLIENT TO CONFIRM]]"
+    },
+    {
+      "slug": "wp-02",
+      "title": "Introducción a los colectores solares térmicos",
+      "summary": "Cómo el absorbedor y el aislamiento mejoran la transferencia de calor.",
+      "body": "El documento técnico WP.02 aún no se ha facilitado. [[CLIENT TO CONFIRM]]"
+    }
+  ],
+  "pages": {
+    "home": {
+      "meta": {
+        "title": "Solaz",
+        "description": "Colectores solares térmicos, bombas de calor y acumuladores eficientes para hogares, hoteles y fincas, diseñados y fabricados en Málaga, España."
+      },
+      "eyebrow": "Especialistas en solar térmica desde 2009 · Málaga, España",
+      "title": "Calor solar y bombas de calor, diseñados y fabricados en Málaga",
+      "lede": "Colectores solares térmicos, bombas de calor y acumuladores de agua caliente para hogares, hoteles y fincas de toda Andalucía, diseñados y montados en nuestra fábrica de Málaga.",
+      "heroAlt": "Colector solar térmico diseñado y fabricado según Solar Keymark",
+      "heroCaption": "Fig. 1: Colector solar térmico, diseñado y fabricado según Solar Keymark · REF 00.1",
+      "callouts": [
+        {
+          "kicker": "Vida del colector",
+          "value": "Solar Keymark",
+          "place": "code"
+        },
+        {
+          "kicker": "Cubierta",
+          "value": "Vidrio templado bajo en hierro",
+          "place": "motors"
+        },
+        {
+          "kicker": "Absorbedor",
+          "value": "Recubrimiento selectivo, 95%",
+          "place": "blocks"
+        }
+      ],
+      "specs": [
+        {
+          "value": "Solar Keymark",
+          "label": "Vida de los colectores"
+        },
+        {
+          "value": "A+++",
+          "label": "Etiqueta energética"
+        },
+        {
+          "value": "5,1",
+          "label": "SCOP de la bomba de calor"
+        },
+        {
+          "value": "25 años",
+          "label": "Vida del colector"
+        }
+      ],
+      "trustLabel": "Certificaciones",
+      "trust": [
+        "ISO 9001",
+        "ISO 14001",
+        "Sello A+++",
+        "EN 12975",
+        "Cumple el RITE"
+      ],
+      "companyKicker": "01 / Empresa",
+      "companyTitle": "Diseñamos y fabricamos equipos de calefacción renovable desde 2009",
+      "companyDeck": "Todos los equipos se fabrican en nuestra planta de Málaga, incluidos nuestros colectores, acumuladores y controles.",
+      "figures": [
+        {
+          "value": "2009",
+          "label": "Fundación"
+        },
+        {
+          "value": "5,1",
+          "label": "SCOP de la bomba de calor"
+        },
+        {
+          "value": "Fabricación propia",
+          "label": "Colectores montados en nuestra fábrica"
+        },
+        {
+          "value": "Málaga, España",
+          "label": "Nuestra fábrica"
+        }
+      ],
+      "productsKicker": "02 / Productos",
+      "productsTitle": "Productos solares y bombas de calor",
+      "productsDeck": "Colectores, bombas de calor y acumuladores que funcionan juntos. Pídenos un sistema completo.",
+      "cards": [
+        {
+          "title": "Colectores solares térmicos",
+          "image": "/images/plate-collector.webp",
+          "alt": "Colector solar térmico",
+          "href": "/products/#p01",
+          "bullets": [
+            "Certificado Solar Keymark",
+            "Placa plana o tubo de vacío",
+            "Pensado para más de 300 días de sol al año",
+            "Circuitos protegidos contra heladas"
+          ]
+        },
+        {
+          "title": "Bombas de calor aire-agua",
+          "image": "/images/plate-heat-pump.webp",
+          "alt": "Bombas de calor aire-agua",
+          "href": "/products/#p02",
+          "bullets": [
+            "Refrigerante natural R290",
+            "SCOP hasta 5,1",
+            "Etiqueta energética A+++",
+            "Probada en fábrica antes del envío"
+          ]
+        },
+        {
+          "title": "Paneles híbridos PV-T",
+          "image": "/images/plate-pvt.webp",
+          "alt": "Equipo de paneles híbridos PV-T",
+          "href": "/products/#p03",
+          "bullets": [
+            "Agua caliente y calefacción",
+            "PED / cumple el RITE / ASME VIII si se requiere",
+            "Ideal con poco espacio en cubierta",
+            "Compatible con las bombas de calor Solaz"
+          ]
+        },
+        {
+          "title": "Acumuladores e interacumuladores",
+          "image": "/images/plate-tank.webp",
+          "alt": "Acumulador para centros deportivos",
+          "href": "/automotive/",
+          "bullets": [
+            "Depósito interior de acero inoxidable",
+            "De 200 a 2.000 litros",
+            "Preparado para serpentín solar y bomba de calor"
+          ]
+        }
+      ],
+      "sectorsKicker": "Sectores",
+      "sectorsTitle": "Hecho para el cinturón del sol",
+      "sectorsDeck": "De las azoteas de hoteles a las almazaras, los sistemas Solaz calientan agua con el sol en toda España y Portugal.",
+      "sectors": [
+        {
+          "code": "S.01",
+          "title": "Hoteles",
+          "body": "Agua caliente solar para habitaciones, piscinas y cocinas."
+        },
+        {
+          "code": "S.02",
+          "title": "Agroalimentario",
+          "body": "Sistemas solares y de bomba de calor para fincas e industria alimentaria, conforme al RITE."
+        },
+        {
+          "code": "S.03",
+          "title": "Vivienda",
+          "body": "Kits solares y de bomba de calor para vivienda nueva y rehabilitada."
+        },
+        {
+          "code": "S.04",
+          "title": "Centros deportivos",
+          "body": "Climatización de piscinas y vestuarios con solar y bombas de calor."
+        },
+        {
+          "code": "S.05",
+          "title": "Industria",
+          "body": "Agua caliente de proceso para talleres y fábricas."
+        }
+      ],
+      "capKicker": "03 / Capacidades",
+      "capTitle": "Del diseño al mantenimiento",
+      "capabilities": [
+        {
+          "code": "001",
+          "title": "Diseño del sistema",
+          "body": "Cálculo de fracción solar y carga térmica de cada instalación antes de presupuestar."
+        },
+        {
+          "code": "002",
+          "title": "Planificación de cubierta",
+          "body": "Diseño 3D de la cubierta, estructuras e hidráulica, comprobado según RITE y CTE."
+        },
+        {
+          "code": "003",
+          "title": "Fabricación",
+          "body": "Colectores, estructuras y acumuladores montados y probados a presión en Málaga."
+        },
+        {
+          "code": "004",
+          "title": "Mantenimiento",
+          "body": "Revisión anual, control del glicol e informes de rendimiento de cada instalación."
+        }
+      ],
+      "qualityKicker": "04 / Calidad",
+      "qualityTitle": "Acreditaciones y certificaciones",
+      "qualityDeck": "Gestión de la calidad ISO 9001, gestión ambiental ISO 14001 y el sello A+++ para el diseño y la fabricación de equipos a presión.",
+      "qualityLinks": [
+        {
+          "label": "Descargar certificados",
+          "href": "/downloads/certificates/"
+        },
+        {
+          "label": "Política de compras éticas",
+          "href": "/downloads/ethical-procurement/"
+        },
+        {
+          "label": "Política de sostenibilidad",
+          "href": "/downloads/sustainability/"
+        }
+      ]
+    },
+    "products": {
+      "meta": {
+        "title": "Productos solares y bombas de calor",
+        "description": "Una amplia gama de productos solares y bombas de calor, diseñados según las especificaciones del cliente y fabricados en Málaga."
+      },
+      "crumb": "Productos",
+      "title": "Productos solares y bombas de calor",
+      "lede": "Una amplia gama de productos solares y bombas de calor, diseñados según las especificaciones del cliente y fabricados en Málaga. Contáctanos para soluciones a medida.",
+      "items": [
+        {
+          "id": "p01",
+          "code": "P.01",
+          "index": "Solar térmica",
+          "title": "Colectores solares térmicos",
+          "deck": "Colectores totalmente a medida, diseñados según las especificaciones del cliente.",
+          "image": "/images/plate-collector.webp",
+          "alt": "Colectores solares térmicos",
+          "caption": "Fig. 1: Colectores solares térmicos · REF P.01",
+          "chips": [
+            "Solar Keymark",
+            "Cumple el RITE"
+          ],
+          "bullets": [
+            "Certificado Solar Keymark",
+            "Placa plana o tubo de vacío",
+            "Montaje en cubierta plana o inclinada",
+            "Pensado para más de 300 días de sol al año",
+            "Válvulas para redundancia del circuito",
+            "Conexiones laterales o superiores",
+            "Conexión en serie o en paralelo según la pérdida de carga",
+            "Circuitos protegidos contra heladas"
+          ],
+          "quote": "Pedir presupuesto de este producto",
+          "application": "Colectores solares térmicos",
+          "extra": null
+        },
+        {
+          "id": "p02",
+          "code": "P.02",
+          "index": "Aerotermia",
+          "title": "Bombas de calor aire-agua",
+          "deck": "Bombas de calor para calefacción y agua caliente.",
+          "image": "/images/plate-heat-pump.webp",
+          "alt": "Bombas de calor aire-agua",
+          "caption": "Fig. 2: Bombas de calor aire-agua · REF P.02",
+          "chips": [
+            "R290",
+            "5,1",
+            "A+++"
+          ],
+          "bullets": [
+            "Refrigerante natural R290",
+            "Aplicaciones de alta eficiencia, SCOP hasta 5,1",
+            "Etiqueta energética A+++",
+            "Cálculos mecánicos con PV Elite",
+            "Probada en fábrica antes del envío",
+            "Acero al carbono, inoxidable y cobre; pintado para ambientes exigentes"
+          ],
+          "quote": "Pedir presupuesto de este producto",
+          "application": "Bombas de calor aire-agua",
+          "extra": null
+        },
+        {
+          "id": "p03",
+          "code": "P.03",
+          "index": "Paneles híbridos PV-T",
+          "title": "Paneles híbridos PV-T",
+          "deck": "Diseñados y fabricados para un uso intensivo.",
+          "image": "/images/plate-pvt.webp",
+          "alt": "Equipo de paneles híbridos PV-T",
+          "caption": "Fig. 3: Paneles híbridos PV-T · REF P.03",
+          "chips": [
+            "PED",
+            "Cumple el RITE",
+            "ASME VIII"
+          ],
+          "bullets": [
+            "Diseñados y fabricados para un uso intensivo",
+            "Cumple PED / RITE / ASME VIII si se requiere",
+            "Amplia gama de materiales",
+            "Compatible con las bombas de calor Solaz",
+            "Diseñados para cumplir límites de tamaño y peso",
+            "Podemos suministrar equipos de sustitución equivalentes",
+            "Agua caliente, calefacción y recuperación de calor"
+          ],
+          "quote": "Pedir presupuesto de este producto",
+          "application": "Paneles híbridos PV-T",
+          "extra": null
+        },
+        {
+          "id": "p04",
+          "code": "P.04",
+          "index": "Recuperadores de calor",
+          "title": "Recuperadores de calor",
+          "deck": "Un servicio de diseño para crear el equipo adecuado a tu demanda térmica e instalación, en acero al carbono, inoxidable, cobre o aluminio.",
+          "image": "/images/turbo-machinery.webp",
+          "alt": "Recuperadores de calor",
+          "caption": "Fig. 4: Recuperadores de calor · REF P.04",
+          "chips": [
+            "A medida"
+          ],
+          "bullets": [
+            "Recuperación de calor de gases de combustión",
+            "Recuperación de calor residual",
+            "Intercambiadores de línea",
+            "Calentadores de aire",
+            "Allí donde se necesite calentar o enfriar un fluido o el aire"
+          ],
+          "quote": "Pedir presupuesto de este producto",
+          "application": "Recuperadores de calor",
+          "extra": null
+        },
+        {
+          "id": "p05",
+          "code": "P.05",
+          "index": "Sistemas para industria",
+          "title": "Sistemas para industria",
+          "deck": "Soluciones a medida para procesos industriales.",
+          "image": "/images/bearing-coolers.webp",
+          "alt": "Sistemas para industria",
+          "caption": "Fig. 5: Sistemas para industria · REF P.05",
+          "chips": [
+            "Proceso",
+            "Industria"
+          ],
+          "bullets": [
+            "Agua caliente de proceso para limpieza y lavado",
+            "Precalentamiento de agua de calderas",
+            "Calefacción de naves y talleres",
+            "Los servicios pueden combinarse para ahorrar espacio",
+            "Materiales adaptados al servicio y al clima",
+            "Redundancia del servicio si se requiere",
+            "Soluciones de bajo ruido disponibles",
+            "Bombas de calor e intercambiadores"
+          ],
+          "quote": "Pedir presupuesto de este producto",
+          "application": "Sistemas para industria",
+          "extra": null
+        },
+        {
+          "id": "p06",
+          "code": "P.06",
+          "index": "Intercambiadores para piscinas",
+          "title": "Intercambiadores para piscinas",
+          "deck": "Diseños a medida según los requisitos térmicos y mecánicos del cliente.",
+          "image": "/images/seal-coolers.webp",
+          "alt": "Intercambiadores para piscinas",
+          "caption": "Fig. 6: Intercambiadores para piscinas · REF P.06",
+          "chips": [
+            "A medida"
+          ],
+          "bullets": [
+            "Diseños a medida según los requisitos térmicos y mecánicos del cliente",
+            "Opciones de convección natural y forzada",
+            "Partes a presión en acero inoxidable 316/L, dúplex y superdúplex",
+            "Superficies exteriores de aluminio o acero inoxidable",
+            "Motores eléctricos de accionamiento directo según IEC Ex y NEMA",
+            "Mecanizado propio, soldadura homologada, ensayos no destructivos, pintura, pruebas hidráulicas y limpieza",
+            "ASME VIII con sello U y marcado CE, con homologaciones adicionales si se requieren"
+          ],
+          "quote": "Pedir presupuesto de este producto",
+          "application": "Intercambiadores para piscinas",
+          "extra": null
+        },
+        {
+          "id": "p07",
+          "code": "P.07",
+          "index": "Acumuladores e interacumuladores",
+          "title": "Acumuladores e interacumuladores",
+          "deck": "Acumuladores con depósito interior de acero inoxidable en formatos a medida.",
+          "image": "/images/plate-tank.webp",
+          "alt": "Acumuladores e interacumuladores",
+          "caption": "Fig. 7: Acumuladores e interacumuladores · REF P.07",
+          "chips": [
+            "Inoxidable"
+          ],
+          "bullets": [
+            "Serpentín de alta eficiencia (acero inoxidable o cobre)",
+            "Conexiones integradas en el depósito, sin piezas intermedias",
+            "Sin uniones intermedias",
+            "Soporta altas presiones de trabajo",
+            "Acero inoxidable, acero vitrificado y cobre",
+            "Suministrados en vertical u horizontal"
+          ],
+          "quote": "Pedir presupuesto de este producto",
+          "application": "Acumuladores e interacumuladores",
+          "extra": {
+            "label": "Ver acumuladores",
+            "href": "/automotive/"
+          }
+        },
+        {
+          "id": "p08",
+          "code": "P.08",
+          "index": "Calderería",
+          "title": "Servicios de calderería",
+          "deck": "Trabajos de calderería y recipientes a presión realizados en nuestra fábrica de Málaga.",
+          "image": "/images/fabrication.webp",
+          "alt": "Calderería en la fábrica de Málaga",
+          "caption": "Fig. 8: Servicios de calderería · REF P.08",
+          "chips": [
+            "ASME IX",
+            "NACE"
+          ],
+          "bullets": [
+            "Corte por plasma de gran formato",
+            "Fresadoras CNC y centro de torneado",
+            "Soldadura fuerte y con plata",
+            "Soldadura TIG, MMA, FCAW y MIG/MAG",
+            "Soldadores homologados ASME IX",
+            "Pintura según normas NACE",
+            "Recipientes a presión ASME / API"
+          ],
+          "quote": "Pedir presupuesto de calderería",
+          "application": "Calderería",
+          "extra": null
+        },
+        {
+          "id": "p09",
+          "code": "P.09",
+          "index": "Recambios",
+          "title": "Recambios",
+          "deck": "Equipos Solaz «antiguos» completos de más de 15 años, y recambios.",
+          "image": "/images/spares.webp",
+          "alt": "Recambios para equipos Solaz",
+          "caption": "Fig. 9: Recambios · REF P.09",
+          "chips": [
+            "Antiguos",
+            "Piezas originales"
+          ],
+          "bullets": [
+            "Colectores de sustitución para instalaciones Solaz",
+            "Acumuladores, serpentines y envolventes de sustitución para equipos Solaz",
+            "Grupos de bombeo, bombas, vasos de expansión y válvulas completos",
+            "Juntas, tapones y arandelas",
+            "Juntas y kits de estanqueidad para acumuladores"
+          ],
+          "quote": null,
+          "application": "",
+          "extra": {
+            "label": "Ver recambios",
+            "href": "/aftermarket/"
+          }
+        }
+      ],
+      "mfgKicker": "08 / Fabricación",
+      "mfgTitle": "Diseñado y fabricado en Málaga",
+      "mfgPhotos": [
+        {
+          "image": "/images/manufacturing-cnc.webp",
+          "alt": "Centro de torneado CNC con herramienta motorizada",
+          "caption": "Fig. 8: Centro de torneado CNC con herramienta motorizada · REF 08.1",
+          "href": "/manufacturing/"
+        },
+        {
+          "image": "/images/manufacturing-fabrication.webp",
+          "alt": "Calderería en planta",
+          "caption": "Fig. 9: Calderería en planta · REF 08.2",
+          "href": "/manufacturing/"
+        },
+        {
+          "image": "/images/refurbishment-after.webp",
+          "alt": "Equipo reparado",
+          "caption": "Fig. 10: Equipo reparado listo para su entrega · REF 08.3",
+          "href": "/refurbishment/"
+        }
+      ]
+    },
+    "aftermarket": {
+      "meta": {
+        "title": "Recambios",
+        "description": "Equipos Solaz antiguos completos de más de 15 años, y recambios para colectores y acumuladores Solaz."
+      },
+      "crumb": "Recambios",
+      "title": "Recambios",
+      "lede": "Equipos Solaz «antiguos» completos de más de 15 años, y recambios para colectores y acumuladores Solaz.",
+      "sparesKicker": "01 / Recambios",
+      "sparesTitle": "Recambios para equipos Solaz",
+      "sparesImage": "/images/spares.webp",
+      "sparesAlt": "Juntas, bridas y tapones para equipos Solaz",
+      "spares": [
+        "Equipos Solaz «antiguos» completos de más de 15 años",
+        "Colectores de sustitución para instalaciones Solaz",
+        "Acumuladores, serpentines y envolventes de sustitución para equipos Solaz",
+        "Grupos de bombeo, bombas, vasos de expansión y válvulas completos",
+        "Juntas, tapones y arandelas",
+        "Juntas y kits de estanqueidad para acumuladores"
+      ],
+      "serviceKicker": "02 / Mantenimiento",
+      "serviceTitle": "Mantener en marcha los equipos antiguos",
+      "serviceItems": [
+        {
+          "code": "S.01",
+          "title": "Inspección in situ",
+          "body": "Antes de una parada, inspeccionamos la instalación para recomendar y confirmar el mejor plan de reparación."
+        },
+        {
+          "code": "S.02",
+          "title": "Mantenimiento",
+          "body": "Los equipos se llevan a nuestra fábrica de Málaga para evaluar daños, causa raíz y calidad, con un presupuesto cerrado y definitivo."
+        },
+        {
+          "code": "S.03",
+          "title": "Equipos de sustitución",
+          "body": "Si un equipo no tiene reparación, Solaz recomendará uno nuevo con plazo de entrega urgente para cumplir la planificación."
+        }
+      ]
+    },
+    "finTube": {
+      "meta": {
+        "title": "Colectores",
+        "description": "Superficies de intercambio interiores y exteriores fabricadas por Solaz Servicio, división de Solaz Energía S.L."
+      },
+      "crumb": "Colectores",
+      "title": "Transferencia de calor: superficies interiores y exteriores",
+      "lede": "Todos los colectores Solaz se fabrican en nuestra planta por Solaz Servicio, división de Solaz Energía S.L.",
+      "kicker": "01 / Gama",
+      "heading": "Absorbedores y aislamiento",
+      "deck": "Una gama de superficies de alto rendimiento que, combinadas, ofrecen una solución solar eficiente.",
+      "tubes": [
+        {
+          "code": "T.01",
+          "title": "Colector de placa plana",
+          "image": "/images/g-finned-tube.webp",
+          "alt": "Colector de placa plana",
+          "body": "Colector de alta conductividad para temperaturas elevadas. El absorbedor selectivo se une a la parrilla de tubos de cobre para lograr una alta transferencia de calor y una unión mecánica segura."
+        },
+        {
+          "code": "T.02",
+          "title": "Colector de tubo de vacío",
+          "image": "/images/l-finned-tube.webp",
+          "alt": "Colector de tubo de vacío",
+          "body": "[[CLIENT TO CONFIRM]] descripción (no publicada en la web actual)"
+        },
+        {
+          "code": "T.03",
+          "title": "Colector heat pipe",
+          "image": "/images/ll-finned-tube.webp",
+          "alt": "Colector heat pipe",
+          "body": "[[CLIENT TO CONFIRM]] descripción (no publicada en la web actual)"
+        },
+        {
+          "code": "T.04",
+          "title": "Colector para piscinas",
+          "image": "/images/kl-finned-tube.webp",
+          "alt": "Colector para piscinas",
+          "body": "[[CLIENT TO CONFIRM]] descripción (no publicada en la web actual)"
+        },
+        {
+          "code": "T.05",
+          "title": "Colector de alta temperatura",
+          "image": "/images/wire-wound-tube.webp",
+          "alt": "Colector de alta temperatura",
+          "body": "[[CLIENT TO CONFIRM]] descripción (no publicada en la web actual)"
+        },
+        {
+          "code": "T.06",
+          "title": "Absorbedor de aletas",
+          "image": "/images/crinkle-fin-tube.webp",
+          "alt": "Detalle del absorbedor",
+          "body": "[[CLIENT TO CONFIRM]] descripción (no publicada en la web actual)"
+        },
+        {
+          "code": "T.07",
+          "title": "Turbulador interior",
+          "image": "/images/turbulator-inserts.webp",
+          "alt": "Turbulador interior",
+          "body": "[[CLIENT TO CONFIRM]] descripción (no publicada en la web actual)"
+        }
+      ],
+      "tflKicker": "02 / Solaz Servicio",
+      "tflTitle": "Colectores fabricados en casa",
+      "tflBody": "Todas las superficies se han probado a fondo en nuestra planta, y esos datos, junto con software propio de diseño térmico, garantizan el diseño óptimo en cada proyecto.",
+      "tflAlt": "Solaz Servicio"
+    },
+    "automotive": {
+      "meta": {
+        "title": "Soluciones para centros deportivos",
+        "description": "Agua caliente y climatización de piscinas para centros deportivos, donde el coste, el espacio y la demanda continua marcan el diseño."
+      },
+      "crumb": "Centros deportivos",
+      "title": "Soluciones para centros deportivos",
+      "lede": "Los centros deportivos tienen necesidades distintas de otros sectores. El coste, el espacio y la demanda continua de agua caliente son claves, porque afectan al consumo, al confort y a las emisiones.",
+      "kicker": "01 / Solar y aerotermia",
+      "heading": "Por qué combinar solar y bomba de calor",
+      "image": "/images/automotive-wire-fin.webp",
+      "alt": "Instalación solar para centro deportivo",
+      "paragraphs": [
+        "La combinación de colectores solares y bomba de calor cubre las tres claves: alta eficiencia, bajo consumo y un diseño compacto. Los acumuladores pueden integrarse en el circuito existente, con menos uniones y menos puntos de fuga.",
+        "La bomba de calor cubre la demanda cuando no hay sol, sin perder rendimiento. El sistema mantiene la temperatura de duchas y piscina todo el año y reduce el gasto en gas.",
+        "El acero inoxidable es el material más habitual para los acumuladores, con buena resistencia a la corrosión y una larga vida útil. Ofrecemos varios volúmenes y configuraciones, y adaptamos forma, tamaño y distribución al espacio disponible."
+      ],
+      "specKicker": "02 / Especificación",
+      "specTitle": "Acumuladores e interacumuladores",
+      "bullets": [
+        "Serpentín de alta eficiencia (acero inoxidable o cobre)",
+        "Conexiones integradas en el depósito, sin piezas intermedias",
+        "Sin uniones intermedias",
+        "Soporta altas presiones de trabajo",
+        "Acero inoxidable, acero vitrificado y cobre",
+        "Suministrados en vertical u horizontal"
+      ],
+      "photos": [
+        {
+          "image": "/images/automotive-spec-2.webp",
+          "alt": "Detalle del serpentín"
+        },
+        {
+          "image": "/images/plate-tank.webp",
+          "alt": "Conjunto de acumulación para centro deportivo"
+        },
+        {
+          "image": "/images/automotive-spec-4.webp",
+          "alt": "Acumulador conformado"
+        }
+      ]
+    },
+    "refurbishment": {
+      "meta": {
+        "title": "Mantenimiento",
+        "description": "De colectores solares a bombas de calor, Solaz revisa y repara todo tipo de equipos en su fábrica de Málaga."
+      },
+      "crumb": "Mantenimiento",
+      "title": "De colectores a bombas de calor, revisamos y reparamos todo tipo de equipos",
+      "lede": "Cuando la instalación se detiene, llevamos el equipo a nuestra fábrica de Málaga para evaluar daños, causa raíz, calidad y normativa, con un informe de recomendaciones.",
+      "processKicker": "01 / Proceso",
+      "processTitle": "Cómo funciona una reparación",
+      "steps": [
+        {
+          "code": "R.01",
+          "title": "Recogida",
+          "body": "Los equipos se llevan a nuestra fábrica de Málaga durante la parada de la instalación."
+        },
+        {
+          "code": "R.02",
+          "title": "Evaluación",
+          "body": "Evaluación de daños, análisis de causa raíz, calidad y cumplimiento normativo."
+        },
+        {
+          "code": "R.03",
+          "title": "Presupuesto",
+          "body": "Un informe de recomendaciones y un presupuesto cerrado antes de empezar."
+        },
+        {
+          "code": "R.04",
+          "title": "Restauración",
+          "body": "Trabajos para dejar el equipo lo más cerca posible de su estado original."
+        }
+      ],
+      "resultsKicker": "02 / Resultados",
+      "resultsTitle": "Antes y después",
+      "photos": [
+        {
+          "image": "/images/refurbishment-before.webp",
+          "alt": "Equipo a su llegada",
+          "caption": "Fig. 1: Equipo a su llegada · REF 02.1"
+        },
+        {
+          "image": "/images/refurbishment-after.webp",
+          "alt": "El mismo equipo tras la reparación",
+          "caption": "Fig. 2: El mismo equipo tras la reparación · REF 02.2"
+        }
+      ],
+      "scopeKicker": "03 / Alcance",
+      "scopeTitle": "Qué puede incluir el trabajo",
+      "scope": [
+        "Limpieza",
+        "Sustitución de tubos",
+        "Sustitución de metal corroído",
+        "Tratamiento superficial y pintura",
+        "Prueba de estanqueidad e hidráulica",
+        "Ensayos UT, RT y LPI",
+        "Sello A+++ y PED",
+        "Inspección externa y FAT",
+        "Validación del diseño",
+        "Modernización",
+        "Cumplimiento de normas armonizadas"
+      ],
+      "supportKicker": "04 / Asistencia in situ",
+      "supportTitle": "Antes, durante y después de una parada",
+      "supportDeck": "Trabajamos para hoteles, viviendas, centros deportivos, agroalimentario e industria.",
+      "support": [
+        {
+          "code": "S.01",
+          "title": "Inspección in situ",
+          "body": "Antes de una parada, inspeccionamos la instalación para recomendar y confirmar el mejor plan de reparación."
+        },
+        {
+          "code": "S.02",
+          "title": "Equipos de sustitución",
+          "body": "Si un equipo se ha deteriorado sin reparación posible, Solaz recomendará uno nuevo con plazo urgente para cumplir la planificación."
+        },
+        {
+          "code": "S.03",
+          "title": "Recambios",
+          "body": "Recambios para equipos Solaz de más de 15 años.",
+          "href": "/aftermarket/"
+        }
+      ]
+    },
+    "manufacturing": {
+      "meta": {
+        "title": "Fabricación",
+        "description": "Fabricación de precisión en nuestra planta de Málaga: mecanizado CNC, colectores, calderería, pruebas, soldadura y montaje."
+      },
+      "crumb": "Fabricación",
+      "title": "Fabricación de precisión en casa",
+      "lede": "Un completo conjunto de servicios de fabricación en nuestra planta de Málaga.",
+      "photos": [
+        {
+          "image": "/images/manufacturing-cnc.webp",
+          "alt": "Centro de torneado CNC con herramienta motorizada",
+          "caption": "Fig. 1: Centro de torneado CNC con herramienta motorizada · REF 01.1"
+        },
+        {
+          "image": "/images/manufacturing-fabrication.webp",
+          "alt": "Calderería en planta",
+          "caption": "Fig. 2: Calderería en planta · REF 01.2"
+        }
+      ],
+      "kicker": "01 / Capacidades",
+      "heading": "Lo que hacemos en casa",
+      "items": [
+        {
+          "code": "M.01",
+          "title": "Mecanizado CNC",
+          "body": "Dos fresadoras CNC de 3 ejes y un centro de torneado CNC con herramienta motorizada."
+        },
+        {
+          "code": "M.02",
+          "title": "Fabricación de colectores",
+          "body": "Colectores fabricados en casa por Solaz Servicio.",
+          "href": "/fin-tube/"
+        },
+        {
+          "code": "M.03",
+          "title": "Calderería",
+          "body": "Calderería y corte de chapa de precisión."
+        },
+        {
+          "code": "M.04",
+          "title": "Tratamiento superficial",
+          "body": "Granallado y pintura para acabados de protección."
+        },
+        {
+          "code": "M.05",
+          "title": "Pruebas",
+          "body": "Pruebas de estanqueidad, hidráulicas y de limpieza."
+        },
+        {
+          "code": "M.06",
+          "title": "Soldadura e inspección",
+          "body": "Soldadura homologada, líquidos penetrantes y ensayos PMI."
+        },
+        {
+          "code": "M.07",
+          "title": "Montaje de grupos hidráulicos",
+          "body": "Montaje de grupos de bombeo, con pruebas de funcionamiento para confirmar el rendimiento."
+        }
+      ]
+    },
+    "company": {
+      "meta": {
+        "title": "Empresa",
+        "description": "Solaz Energía S.L. diseña y fabrica equipos solares y de bomba de calor desde 2009."
+      },
+      "crumb": "Empresa",
+      "title": "Sobre Solaz Energía S.L.",
+      "lede": "Diseñamos y fabricamos sistemas eficientes de calefacción solar y bomba de calor para hogares, hoteles y agricultura desde 2009.",
+      "paragraphs": [
+        "La clave de un sistema compacto y eficiente está en elegir superficies de intercambio de alto rendimiento, equilibradas para la máxima transferencia de calor.",
+        "Todas las superficies se han probado a fondo en nuestra planta. Esos datos, junto con software propio de diseño térmico, garantizan el diseño óptimo en cada proyecto.",
+        "Todos nuestros equipos se fabrican en nuestra planta para mantener la calidad y el rendimiento. Diseñamos y fabricamos según Solar Keymark y tenemos el sello A+++."
+      ],
+      "photo": "/images/plate-pvt.webp",
+      "photoAlt": "Equipo de paneles híbridos PV-T fabricado por Solaz",
+      "photoNote": "[[CLIENT TO CONFIRM]] nueva foto de la planta de Málaga (la actual es de baja resolución)",
+      "numbersKicker": "02 / En cifras",
+      "numbersTitle": "Solaz Energía de un vistazo",
+      "numbers": [
+        {
+          "value": "2009",
+          "label": "Diseñando y fabricando desde"
+        },
+        {
+          "value": "Solar Keymark",
+          "label": "Norma de diseño y fabricación"
+        },
+        {
+          "value": "A+++",
+          "label": "Etiqueta energética"
+        },
+        {
+          "value": "25 años",
+          "label": "Certificación de calidad y medio ambiente"
+        }
+      ],
+      "policyKicker": "03 / Calidad y políticas",
+      "policyTitle": "Acreditaciones y certificaciones",
+      "policyDeck": "ISO 9001, ISO 14001 y el sello A+++. Descarga nuestros certificados y políticas.",
+      "policies": [
+        {
+          "code": "Q.01",
+          "title": "Certificados",
+          "body": "ISO 9001, ISO 14001, sello A+++",
+          "action": "Descargar certificados",
+          "href": "/downloads/certificates/"
+        },
+        {
+          "code": "Q.02",
+          "title": "Política de compras éticas",
+          "body": "Responsabilidad global: principios en la práctica",
+          "action": "Leer la política",
+          "href": "/downloads/ethical-procurement/"
+        },
+        {
+          "code": "Q.03",
+          "title": "Política de sostenibilidad",
+          "body": "Cuidado del medio ambiente: un planeta sostenible",
+          "action": "Leer la política",
+          "href": "/downloads/sustainability/"
+        }
+      ]
+    },
+    "whitepapers": {
+      "meta": {
+        "title": "Documentos técnicos",
+        "description": "Introducciones técnicas a los equipos y procesos con los que trabaja Solaz."
+      },
+      "crumb": "Documentos técnicos",
+      "title": "Documentos técnicos",
+      "lede": "Introducciones técnicas a los equipos y procesos con los que trabajamos.",
+      "kicker": "01 / Biblioteca",
+      "heading": "Documentos técnicos",
+      "columns": [
+        "Código",
+        "Título",
+        "Resumen",
+        "Acción"
+      ],
+      "rows": [
+        {
+          "code": "WP.01",
+          "title": "Introducción a las bombas de calor aire-agua",
+          "summary": "Diseño, funcionamiento y mantenimiento de bombas de calor, con datos sobre eficiencia y sostenibilidad.",
+          "action": "Leer",
+          "href": "/downloads/wp-01/"
+        },
+        {
+          "code": "WP.02",
+          "title": "Introducción a los colectores solares térmicos",
+          "summary": "Cómo el absorbedor y el aislamiento aumentan el rendimiento de los colectores solares.",
+          "action": "Leer",
+          "href": "/downloads/wp-02/"
+        }
+      ]
+    },
+    "contact": {
+      "meta": {
+        "title": "Contacto",
+        "description": "Contacta con el equipo técnico de Solaz en Málaga para información de productos, mantenimiento y presupuestos."
+      },
+      "crumb": "Contacto",
+      "title": "Contáctanos",
+      "lede": "Contacta con nuestro equipo técnico para información de productos, mantenimiento y presupuestos."
+    },
+    "privacy": {
+      "meta": {
+        "title": "Privacidad y cookies",
+        "description": "Cómo Solaz Energía S.L. recoge, usa y protege tu información."
+      },
+      "crumb": "Privacidad y cookies",
+      "title": "Privacidad y cookies",
+      "lede": "Cómo Solaz Energía S.L. recoge, usa y protege tu información. Última actualización [[CLIENT TO CONFIRM]].",
+      "kicker": "01 / Política",
+      "heading": "Nuestra política de privacidad",
+      "sections": [
+        {
+          "id": "p01",
+          "nav": "01  Quiénes somos",
+          "code": "P.01",
+          "title": "Quiénes somos",
+          "body": "Solaz Energía S.L., Calle Diderot, 14 · Nave 6, Pol. Ind. Guadalhorce, 29004 Málaga, España. CIF [[CLIENT TO CONFIRM]]. Contacto: hola@solaz.es."
+        },
+        {
+          "id": "p02",
+          "nav": "02  Qué datos recogemos",
+          "code": "P.02",
+          "title": "Qué datos recogemos",
+          "body": "Los datos que envías en los formularios de contacto o presupuesto (nombre, empresa, correo, teléfono, especificación del proyecto) y datos analíticos anónimos si aceptas las cookies analíticas."
+        },
+        {
+          "id": "p03",
+          "nav": "03  Cómo los usamos",
+          "code": "P.03",
+          "title": "Cómo los usamos",
+          "body": "Para responder a consultas, preparar presupuestos, entregar pedidos y mejorar la web. No vendemos tu información."
+        },
+        {
+          "id": "p04",
+          "nav": "04  Cookies",
+          "code": "P.04",
+          "title": "Cookies",
+          "body": "Las cookies esenciales hacen que la web funcione. Las cookies analíticas solo se activan si las aceptas, y puedes cambiar tu elección en cualquier momento desde el enlace de ajustes de cookies del pie de página."
+        },
+        {
+          "id": "p05",
+          "nav": "05  Cuánto tiempo los guardamos",
+          "code": "P.05",
+          "title": "Cuánto tiempo los guardamos",
+          "body": "Los registros de consultas se guardan [[CLIENT TO CONFIRM]] años, o el tiempo que exijan los contratos y los registros de calidad ISO 9001."
+        },
+        {
+          "id": "p06",
+          "nav": "06  Tus derechos",
+          "code": "P.06",
+          "title": "Tus derechos",
+          "body": "Puedes pedir ver, corregir o borrar tus datos, u oponerte a su uso, según el RGPD. Escribe a hola@solaz.es o reclama ante la Agencia Española de Protección de Datos (aepd.es)."
+        }
+      ]
+    },
+    "notFound": {
+      "meta": {
+        "title": "Página no encontrada",
+        "description": "Esta página se ha movido o ya no existe."
+      },
+      "eyebrow": "Error 404",
+      "title": "Esta página se ha movido o ya no existe",
+      "lede": "Puede que el enlace esté desactualizado. Prueba una de estas páginas o pregunta a nuestro equipo técnico.",
+      "kicker": "Páginas más visitadas",
+      "heading": "A dónde ir",
+      "columns": [
+        "Código",
+        "Título",
+        "Resumen",
+        "Acción"
+      ],
+      "rows": [
+        {
+          "code": "01",
+          "title": "Productos solares y bombas de calor",
+          "summary": "Colectores solares, bombas de calor, paneles PV-T y acumuladores.",
+          "action": "Ver productos",
+          "href": "/products/"
+        },
+        {
+          "code": "02",
+          "title": "Mantenimiento",
+          "summary": "Reparaciones, análisis de causa raíz y modernización en Málaga.",
+          "action": "Ver servicio",
+          "href": "/refurbishment/"
+        }
+      ]
+    },
+    "download": {
+      "meta": {
+        "title": "Documento",
+        "description": "Este documento aún no se ha facilitado."
+      }
+    }
+  }
+}

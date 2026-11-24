@@ -77,7 +77,7 @@ export function PageHero({
       <div className="inner">
         {crumb && (
           <p className="crumb">
-            <Link href={localePath(locale, "/")}>{locale === "de" ? "Start" : "Home"}</Link>
+            <Link href={localePath(locale, "/")}>{locale === "es" ? "Start" : "Home"}</Link>
             <span aria-hidden="true"> / </span>
             {crumb}
           </p>

@@ -10,7 +10,7 @@ export default function NotFound() {
         <NotFoundView locale="en" />
       </div>
       <div className="only-de">
-        <NotFoundView locale="de" />
+        <NotFoundView locale="es" />
       </div>
     </>
   );

@@ -1,16 +1,16 @@
 import en from "@/content/en.json";
-import de from "@/content/de.json";
+import es from "@/content/es.json";
 import { hyphenateTree } from "@/lib/hyphenate";
 
-export type Locale = "en" | "de";
+export type Locale = "en" | "es";
 export type SiteContent = typeof en;
 
 const catalogs: Record<Locale, SiteContent> = {
   en,
-  de: hyphenateTree(de) as SiteContent,
+  es,
 };
 
-export const LOCALES: Locale[] = ["en", "de"];
+export const LOCALES: Locale[] = ["en", "es"];
 
 export const ROUTES = [
   "/",
@@ -33,7 +33,7 @@ export function getSite(locale: Locale): SiteContent {
 
 export function localeFromPath(pathname: string): Locale {
   const bare = stripBase(pathname);
-  return bare === "/de" || bare.startsWith("/de/") ? "de" : "en";
+  return bare === "/es" || bare.startsWith("/es/") ? "es" : "en";
 }
 
 export function stripBase(pathname: string) {
@@ -52,8 +52,8 @@ export function stripBase(pathname: string) {
 /** Locale-agnostic path such as /products/ or /contact/?application=...#x */
 export function barePath(pathname: string) {
   let p = stripBase(pathname);
-  if (p === "/de") p = "/";
-  else if (p.startsWith("/de/")) p = p.slice(3) || "/";
+  if (p === "/es") p = "/";
+  else if (p.startsWith("/es/")) p = p.slice(3) || "/";
   const hash = p.includes("#") ? p.slice(p.indexOf("#")) : "";
   const before = hash ? p.slice(0, p.indexOf("#")) : p;
   const q = before.includes("?") ? before.slice(before.indexOf("?")) : "";
@@ -72,12 +72,12 @@ export function localePath(locale: Locale, href: string) {
   let path = query ? beforeHash.slice(0, beforeHash.indexOf("?")) : beforeHash;
   if (!path.startsWith("/")) path = `/${path}`;
   if (!path.endsWith("/")) path = `${path}/`;
-  const prefixed = locale === "de" ? (path === "/" ? "/de/" : `/de${path}`) : path;
+  const prefixed = locale === "es" ? (path === "/" ? "/es/" : `/es${path}`) : path;
   return `${prefixed}${query}${hash}`;
 }
 
 export function otherLocale(locale: Locale): Locale {
-  return locale === "en" ? "de" : "en";
+  return locale === "en" ? "es" : "en";
 }
 
 export function equivalentPath(pathname: string, target: Locale) {

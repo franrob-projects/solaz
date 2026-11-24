@@ -39,8 +39,8 @@ export function pageMeta(
     : `${opts.title} · ${site.meta.siteName}`;
   const url = absoluteUrl(opts.path);
   const image = absoluteAsset(ogImagePath);
-  const enPath = localePath("en", opts.path.replace(/^\/de(?=\/|$)/, "") || "/");
-  const dePath = localePath("de", enPath);
+  const enPath = localePath("en", opts.path.replace(/^\/es(?=\/|$)/, "") || "/");
+  const dePath = localePath("es", enPath);
 
   return {
     title: { absolute: full },
@@ -49,7 +49,7 @@ export function pageMeta(
       canonical: url,
       languages: {
         en: absoluteUrl(enPath),
-        de: absoluteUrl(dePath),
+        es: absoluteUrl(dePath),
         "x-default": absoluteUrl(enPath),
       },
     },
@@ -59,8 +59,8 @@ export function pageMeta(
       url,
       type: "website",
       siteName: site.meta.siteName,
-      locale: locale === "de" ? "de_DE" : "en_GB",
-      alternateLocale: locale === "de" ? ["en_GB"] : ["de_DE"],
+      locale: locale === "es" ? "es_ES" : "en_GB",
+      alternateLocale: locale === "es" ? ["en_GB"] : ["es_ES"],
       images: [
         {
           url: image,

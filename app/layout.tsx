@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "Solar thermal collectors, heat pumps and hot water storage, designed and made in Málaga since 2009.",
 };
 
-const localeScript = `(function(){var p=location.pathname;var de=/\\/de(\\/|$)/.test(p);document.documentElement.lang=de?"de":"en";document.documentElement.dataset.locale=de?"de":"en";})();`;
+const localeScript = `(function(){var p=location.pathname;var es=/\\/es(\\/|$)/.test(p);document.documentElement.lang=es?"es":"en";document.documentElement.dataset.locale=es?"es":"en";})();`;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

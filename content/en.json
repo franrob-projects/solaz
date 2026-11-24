@@ -8,7 +8,7 @@
     "legalName": "Solaz Energía S.L.",
     "divisionLine": "Solaz Servicio (división)",
     "phone": "+34 951 23 45 67",
-    "phoneHref": "tel:+441522881100",
+    "phoneHref": "tel:+34951234567",
     "email": "hola@solaz.es",
     "addressLines": [
       "Calle Diderot, 14 · Nave 6",
@@ -111,7 +111,7 @@
     "close": "Close",
     "language": "ES · EN ▾",
     "english": "English",
-    "german": "Deutsch",
+    "spanish": "Español",
     "viewProducts": "View products",
     "findOutMore": "Find out more",
     "home": "Home",
