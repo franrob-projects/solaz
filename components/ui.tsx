@@ -1,3 +1,4 @@
+import type React from "react";
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { asset } from "@/lib/config";
@@ -104,7 +105,7 @@ export function SectionHead({
 }: {
   kicker?: string;
   title: string;
-  deck?: string;
+  deck?: React.ReactNode;
 }) {
   return (
     <div className="section-head">
@@ -119,7 +120,7 @@ export function SectionHead({
             <Rich text={title} />
           </h2>
           <p className="deck">
-            <Rich text={deck} />
+            {typeof deck === "string" ? <Rich text={deck} /> : deck}
           </p>
         </div>
       ) : (
@@ -268,5 +269,43 @@ export function DataTable({
         </tbody>
       </table>
     </div>
+  );
+}
+
+/** Solaz logo: sun rising over a collector, from the Figma component. */
+export function LogoMark() {
+  return (
+    <svg className="logo-mark" width="40" height="40" viewBox="0 0 40 40" aria-hidden="true">
+      <rect width="40" height="40" fill="#2F9E4F" />
+      <path d="M11 22a9 9 0 0 1 18 0H11Z" fill="#F2C14E" />
+      <rect x="10.54" y="15.38" width="4" height="2" transform="rotate(-150 10.54 15.38)" fill="#F2C14E" />
+      <rect x="15.12" y="11.54" width="4" height="2" transform="rotate(-120 15.12 11.54)" fill="#F2C14E" />
+      <rect x="21" y="6.5" width="2" height="4" fill="#F2C14E" />
+      <rect x="26.62" y="12.54" width="4" height="2" transform="rotate(-60 26.62 12.54)" fill="#F2C14E" />
+      <rect x="30.46" y="17.12" width="4" height="2" transform="rotate(-30 30.46 17.12)" fill="#F2C14E" />
+      <rect x="5" y="25" width="30" height="2.5" fill="#0F2A1D" />
+      <rect x="5" y="30" width="30" height="2.5" fill="#0F2A1D" />
+      <rect x="5" y="35" width="30" height="2.5" fill="#0F2A1D" />
+    </svg>
+  );
+}
+
+export function Logo() {
+  return (
+    <span className="logo-lockup">
+      <LogoMark />
+      <span className="logo-word">SOLAZ</span>
+    </span>
+  );
+}
+
+/** Text that differs between desktop and mobile layouts (both from the Figma). */
+export function Dual({ desktop, mobile }: { desktop: React.ReactNode; mobile?: React.ReactNode }) {
+  if (mobile === undefined || mobile === desktop) return <>{desktop}</>;
+  return (
+    <>
+      <span className="d-only">{desktop}</span>
+      <span className="m-only">{mobile}</span>
+    </>
   );
 }

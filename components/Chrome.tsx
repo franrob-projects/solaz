@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useId, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import { asset } from "@/lib/config";
-import { Rich } from "./ui";
+import { Logo, Rich } from "./ui";
 import {
   equivalentPath,
   getSite,
@@ -74,7 +74,7 @@ function Header({ locale }: { locale: Locale }) {
     <header className="site-header">
       <div className="inner header-inner">
         <Link className="logo" href={localePath(locale, "/")} aria-label={site.meta.siteName}>
-          <img src={asset("/brand/logo.svg")} alt="" />
+          <Logo />
         </Link>
         <nav className="primary" aria-label={site.ui.menu}>
           {site.nav.map((item) => {
@@ -121,10 +121,10 @@ function Header({ locale }: { locale: Locale }) {
             </Link>
           ))}
           <Link className="btn" href={localePath(locale, "/contact/")} onClick={() => setOpen(false)}>
-            {site.ui.requestQuote} <span aria-hidden="true">→</span>
+            {site.ui.requestQuoteShort} <span aria-hidden="true">→</span>
           </Link>
           <div className="mobile-lang">
-            <span>{site.ui.language}:</span>
+            <span>{site.ui.languageLabel}:</span>
             <Link href={withSearch(equivalentPath(pathname, "en"), search)} hrefLang="en" aria-current={locale === "en" ? "true" : undefined} onClick={() => setOpen(false)}>EN</Link>
             <Link href={withSearch(equivalentPath(pathname, "es"), search)} hrefLang="es" aria-current={locale === "es" ? "true" : undefined} onClick={() => setOpen(false)}>ES</Link>
           </div>
@@ -189,6 +189,7 @@ function Footer({ locale }: { locale: Locale }) {
   return (
     <footer className="site-footer">
       <div className="inner">
+        <div className="footer-logo m-block" aria-hidden="true"><Logo /></div>
         <div className="footer-grid">
           <div>
             <h2>{site.footerLabels.company}</h2>
@@ -231,7 +232,13 @@ function Footer({ locale }: { locale: Locale }) {
             ))}
           </div>
         </div>
-        <p className="legal">
+        <p className="legal legal-mobile m-block">
+          {site.legal.copyMobile} · <Link href={localePath(locale, "/privacy/")}>{site.legal.privacy}</Link> ·{" "}
+          <button type="button" className="linkish" onClick={() => dialogRef.current?.showModal()}>
+            {site.legal.cookiesShort}
+          </button>
+        </p>
+        <p className="legal d-block">
           © {site.company.legalName} · {site.legal.companyNo} <Rich text={site.company.companyNumber} /> · {site.legal.vat}{" "}
           <Rich text={site.company.vat} /> · <Link href={localePath(locale, "/privacy/")}>{site.legal.privacy}</Link> ·{" "}
           <button type="button" className="linkish" onClick={() => dialogRef.current?.showModal()}>

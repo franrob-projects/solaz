@@ -98,7 +98,9 @@
     "vat": "VAT",
     "privacy": "Privacy",
     "cookies": "Cookie settings",
-    "rev": "Rev. A"
+    "rev": "Rev. A",
+    "copyMobile": "© 2026 Solaz Energía S.L. · Málaga",
+    "cookiesShort": "Cookies"
   },
   "cta": {
     "title": "Planning a project? Talk to our engineering team.",
@@ -142,7 +144,9 @@
     "readPolicy": "Read the policy",
     "seeManufacturing": "See manufacturing",
     "seeRefurbishment": "See the refurbishment service",
-    "requestSpares": "Request spares for your Solaz cooler"
+    "requestSpares": "Request spares for your Solaz cooler",
+    "requestQuoteShort": "Pedir presupuesto",
+    "languageLabel": "Language"
   },
   "form": {
     "title": "Request a quote · Presupuesto",
@@ -224,7 +228,7 @@
       "specs": [
         {
           "value": "Solar Keymark",
-          "label": "Collector lifetimes"
+          "label": "Certified"
         },
         {
           "value": "A+++",
@@ -327,12 +331,12 @@
         {
           "code": "S.01",
           "title": "Hotels",
-          "body": "Solar hot water for guest rooms, pools and kitchens."
+          "body": "Rooftop arrays for guest hot water, pools and laundries."
         },
         {
           "code": "S.02",
           "title": "Agri-food",
-          "body": "Solar and heat pump systems for farms and food processing, RITE compliant."
+          "body": "Process heat for olive mills, wineries and packing plants."
         },
         {
           "code": "S.03",
@@ -342,7 +346,7 @@
         {
           "code": "S.04",
           "title": "Leisure centres",
-          "body": "Pool and changing-room heating with solar and heat pumps."
+          "body": "Pool and shower heating sized for year-round demand."
         },
         {
           "code": "S.05",
@@ -390,7 +394,31 @@
           "label": "Sustainability policy",
           "href": "/downloads/sustainability/"
         }
-      ]
+      ],
+      "mobile": {
+        "eyebrow": "Since 2009 · Málaga, España",
+        "title": "Solar heat and heat pumps, made in Málaga",
+        "lede": "Collectors, heat pumps and hot water storage for homes, hotels and farms across Andalucía.",
+        "figures": [
+          {
+            "value": "2009",
+            "label": "Founded"
+          },
+          {
+            "value": "95%",
+            "label": "Absorber efficiency"
+          },
+          {
+            "value": "In-house",
+            "label": "Assembled in-house"
+          },
+          {
+            "value": "Málaga",
+            "label": "Factory and HQ"
+          }
+        ],
+        "qualityDeck": "ISO 9001 quality management, ISO 14001 environmental management and Solar Keymark certification on every collector we build."
+      }
     },
     "products": {
       "meta": {

@@ -3,7 +3,8 @@ import { Suspense } from "react";
 import { asset } from "@/lib/config";
 import { getSite, localePath, type Locale } from "@/lib/i18n";
 import { QuoteForm } from "./QuoteForm";
-import { ArrowLink, Bullets, DarkCards, DataTable, LightItems, PageHero, Plate, Rich, SectionHead } from "./ui";
+import { Carousel } from "./Carousel";
+import { ArrowLink, Bullets, Dual, DarkCards, DataTable, LightItems, PageHero, Plate, Rich, SectionHead } from "./ui";
 
 export function HomeView({ locale }: { locale: Locale }) {
   const site = getSite(locale);
@@ -14,12 +15,12 @@ export function HomeView({ locale }: { locale: Locale }) {
         <img className="hero-ghost" src={asset("/images/hero-ghost.webp")} alt="" />
         <div className="inner hero-grid">
           <div className="hero-copy">
-            <p className="eyebrow">{page.eyebrow}</p>
-            <h1>{page.title}</h1>
-            <p className="lede">{page.lede}</p>
+            <p className="eyebrow"><Dual desktop={page.eyebrow} mobile={page.mobile.eyebrow} /></p>
+            <h1><Dual desktop={page.title} mobile={page.mobile.title} /></h1>
+            <p className="lede"><Dual desktop={page.lede} mobile={page.mobile.lede} /></p>
             <div className="hero-actions">
               <Link className="btn" href={localePath(locale, "/contact/")}>
-                {site.ui.requestQuote} <span aria-hidden="true">→</span>
+                <Dual desktop={site.ui.requestQuote} mobile={site.ui.requestQuoteShort} /> <span aria-hidden="true">→</span>
               </Link>
               <Link className="text-link" href={localePath(locale, "/products/")}>
                 {site.ui.viewProducts}
@@ -59,8 +60,16 @@ export function HomeView({ locale }: { locale: Locale }) {
       <section className="band">
         <div className="inner">
           <SectionHead kicker={page.companyKicker} title={page.companyTitle} deck={page.companyDeck} />
-          <div className="stats">
+          <div className="stats d-grid">
             {page.figures.map((figure) => (
+              <div key={figure.label} className={/\d/.test(figure.value) ? "stat stat-num" : "stat"}>
+                <strong>{figure.value}</strong>
+                <span>{figure.label}</span>
+              </div>
+            ))}
+          </div>
+          <div className="stats stats-mobile m-grid">
+            {page.mobile.figures.map((figure) => (
               <div key={figure.label} className={/\d/.test(figure.value) ? "stat stat-num" : "stat"}>
                 <strong>{figure.value}</strong>
                 <span>{figure.label}</span>
@@ -72,7 +81,7 @@ export function HomeView({ locale }: { locale: Locale }) {
       <section className="band">
         <div className="inner">
           <SectionHead kicker={page.productsKicker} title={page.productsTitle} deck={page.productsDeck} />
-          <div className="cards-4">
+          <Carousel className="cards-4">
             {page.cards.map((card) => (
               <article key={card.title} className="pcard">
                 <div className="plate">
@@ -85,7 +94,7 @@ export function HomeView({ locale }: { locale: Locale }) {
                 </ArrowLink>
               </article>
             ))}
-          </div>
+          </Carousel>
         </div>
       </section>
       <section className="band band-dark">
@@ -102,7 +111,7 @@ export function HomeView({ locale }: { locale: Locale }) {
       </section>
       <section className="band">
         <div className="inner">
-          <SectionHead kicker={page.qualityKicker} title={page.qualityTitle} deck={page.qualityDeck} />
+          <SectionHead kicker={page.qualityKicker} title={page.qualityTitle} deck={<Dual desktop={page.qualityDeck} mobile={page.mobile.qualityDeck} />} />
           <p className="link-row">
             {page.qualityLinks.map((link) => (
               <ArrowLink key={link.href} locale={locale} href={link.href}>

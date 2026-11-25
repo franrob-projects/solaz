@@ -98,7 +98,9 @@
     "vat": "IVA",
     "privacy": "Privacidad",
     "cookies": "Ajustes de cookies",
-    "rev": "Rev. A"
+    "rev": "Rev. A",
+    "copyMobile": "© 2026 Solaz Energía S.L. · Málaga",
+    "cookiesShort": "Cookies"
   },
   "cta": {
     "title": "¿Tienes un proyecto? Habla con nuestro equipo técnico.",
@@ -142,7 +144,9 @@
     "readPolicy": "Leer la política",
     "seeManufacturing": "Ver fabricación",
     "seeRefurbishment": "Ver el servicio de reparación",
-    "requestSpares": "Pedir recambios para tu equipo Solaz"
+    "requestSpares": "Pedir recambios para tu equipo Solaz",
+    "requestQuoteShort": "Pedir presupuesto",
+    "languageLabel": "Idioma"
   },
   "form": {
     "title": "Pedir presupuesto",
@@ -224,7 +228,7 @@
       "specs": [
         {
           "value": "Solar Keymark",
-          "label": "Vida de los colectores"
+          "label": "Certificado"
         },
         {
           "value": "A+++",
@@ -327,12 +331,12 @@
         {
           "code": "S.01",
           "title": "Hoteles",
-          "body": "Agua caliente solar para habitaciones, piscinas y cocinas."
+          "body": "Campos solares en cubierta para agua caliente de huéspedes, piscinas y lavanderías."
         },
         {
           "code": "S.02",
           "title": "Agroalimentario",
-          "body": "Sistemas solares y de bomba de calor para fincas e industria alimentaria, conforme al RITE."
+          "body": "Calor de proceso para almazaras, bodegas y centrales hortofrutícolas."
         },
         {
           "code": "S.03",
@@ -342,7 +346,7 @@
         {
           "code": "S.04",
           "title": "Centros deportivos",
-          "body": "Climatización de piscinas y vestuarios con solar y bombas de calor."
+          "body": "Climatización de piscinas y duchas dimensionada para todo el año."
         },
         {
           "code": "S.05",
@@ -390,7 +394,31 @@
           "label": "Política de sostenibilidad",
           "href": "/downloads/sustainability/"
         }
-      ]
+      ],
+      "mobile": {
+        "eyebrow": "Desde 2009 · Málaga, España",
+        "title": "Calor solar y bombas de calor, fabricados en Málaga",
+        "lede": "Colectores, bombas de calor y acumuladores de agua caliente para hogares, hoteles y fincas de toda Andalucía.",
+        "figures": [
+          {
+            "value": "2009",
+            "label": "Fundación"
+          },
+          {
+            "value": "95%",
+            "label": "Eficiencia del absorbedor"
+          },
+          {
+            "value": "Fabricación propia",
+            "label": "Montaje en fábrica propia"
+          },
+          {
+            "value": "Málaga",
+            "label": "Fábrica y sede"
+          }
+        ],
+        "qualityDeck": "Gestión de la calidad ISO 9001, gestión ambiental ISO 14001 y certificación Solar Keymark en cada colector que fabricamos."
+      }
     },
     "products": {
       "meta": {

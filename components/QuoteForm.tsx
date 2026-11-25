@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useEffect, useState } from "react";
+import { Dual } from "./ui";
 import { useSearchParams } from "next/navigation";
 import { getSite, type Locale } from "@/lib/i18n";
 
@@ -80,7 +81,7 @@ function QuoteFormFields({
 
   return (
     <form className="quote-form" onSubmit={onSubmit}>
-      <h2 className="form-title">{site.form.title}</h2>
+      <h2 className="form-title"><Dual desktop={site.form.title} mobile={site.ui.requestQuoteShort} /></h2>
       {!endpoint && <p className="form-note">{site.ui.mailtoNotice}</p>}
       {status === "error" && <p className="form-error">{site.ui.formError}</p>}
       {status === "mailto" && (
